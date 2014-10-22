@@ -1,0 +1,8 @@
+Right now my work gallery and hero section are placeholder images. 
+I'm envisioning taking full screenshots of the front page of 6 of the 
+recent websites I have worked on with my team at SNWorks. Then, my hero image
+will be a high resolution version of my resume, clicking on it will open a pdf. 
+
+The media box further down in the text section will actually be a contact form where
+those visiting the site can send me a message. The "FOllow" section will really be a list
+of icon links to different social media sites. 
