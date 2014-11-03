@@ -1,0 +1,118 @@
+/* line 1, ../sass/components/_masthead.scss */
+#masthead {
+  background: #BD92CF;
+}
+
+/* line 6, ../sass/components/_masthead.scss */
+#circle img {
+  margin-top: 20px;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+
+/* line 2, ../sass/components/_hero.scss */
+#hero {
+  background: #593C64;
+}
+/* line 6, ../sass/components/_hero.scss */
+#hero img {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-top: 4em;
+}
+
+@font-face {
+  font-family: "Bemio";
+  src: url('/stylesheets/fonts/fonts/bemio.otf') format('opentype');
+}
+
+/* line 4, ../sass/components/_about.scss */
+#about {
+  background: #D0C8D3;
+  padding: 5em 3em;
+}
+/* line 9, ../sass/components/_about.scss */
+#about img {
+  width: 100%;
+}
+/* line 14, ../sass/components/_about.scss */
+#about p {
+  font-family: "Bemio";
+  font-size: 1em;
+  margin: 0;
+  text-align: left;
+  color: #482955;
+}
+/* line 23, ../sass/components/_about.scss */
+#about h2 {
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+/* line 3, ../sass/components/_grid.scss */
+.gallery img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+/* line 10, ../sass/components/_grid.scss */
+.gallery div {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 17, ../sass/components/_grid.scss */
+.bottom {
+  margin-top: 5em;
+}
+
+/* line 1, ../sass/components/_base.scss */
+body {
+  background: #7F1780;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+/* line 7, ../sass/components/_base.scss */
+h1 {
+  font-family: bemio;
+  font-size: 3.5em;
+}
+
+/* line 10, ../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 12, ../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#root {
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -25px;
+}
+/* line 18, ../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#root #root_footer {
+  height: 25px;
+}
+
+/* line 20, ../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#footer {
+  clear: both;
+  position: relative;
+  height: 25px;
+}
+
+/* line 4, ../sass/components/_footer.scss */
+#footer {
+  background: #fff;
+}

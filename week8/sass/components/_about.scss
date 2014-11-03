@@ -1,0 +1,28 @@
+@import "compass/css3";
+@include font-face("Bemio", font-files("fonts/bemio.otf"));
+
+#about{
+
+    background: #D0C8D3;
+    padding: 5em 3em;
+
+    img{
+
+        width: 100%;
+    }
+
+    p {
+    
+        font-family: "Bemio";
+        font-size: 1em;
+        margin: 0;
+        text-align: left;
+        color:#482955 ;
+    }
+
+    h2{
+
+        margin-bottom: 15px;
+        margin-top: 0;
+    }
+}
