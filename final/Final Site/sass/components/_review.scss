@@ -1,0 +1,62 @@
+.review{
+	
+	border: 1px solid #fff;
+	background-color: #fff;
+	figure{
+		img {
+		    margin-bottom: 20px;
+		    width:100%;
+		    height:auto;
+		    border: 2px solid #000;
+			margin-top: 10px;
+	 
+		}
+	}
+
+	h3{
+		
+		font-family: 'Lato', sans-serif;
+	    color: #000;
+		font-size: 4em;
+		text-align: center;
+		font-weight: bold;
+		padding-right: 10px;
+	}
+
+	h4{
+		
+		font-family: 'Open Sans', sans-serif;
+	    color: #000;
+		font-size: 5em;
+		text-align: center;
+		padding-left: 10px;
+		width: 100%;
+	}
+
+	p{
+		
+		font-family: 'Open Sans', sans-serif;
+	    color: #000;
+	    text-align: left;
+	}
+
+	span{
+
+		font-family: 'Lato', sans-serif;
+		font-size: 5.5em;
+
+		span{
+			font-family: 'Open Sans', sans-serif;
+		    color: #000;
+		    text-align: left;
+		    font-size: 14px;
+		    font-style: italic;
+		}
+	}
+
+}
+
+
+
+
+

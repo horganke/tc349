@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt I|E 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Kevin Horgan</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='http://fonts.googleapis.com/css?family=Lato%7COpen+Sans:800' rel='stylesheet' type='text/css'>
+
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+       <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/application.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+     
+        
+    </head>
+    <body>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="feed.html"><i id = "nav-icon" class="fa fa-th"></i></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li>
+                            <a href="feed.html">Reviews</a>
+                        </li>
+                        <li>
+                            <a href="about.html">How It Works</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+    
+        <div class="container-fluid">
+
+
+            <div class="row" id="about">
+                <div id="logo">
+                    <a href="feed.html"><i class="fa fa-th fa-5x"></i></a>
+                    <div class="title">
+                        <h1>bitwise</h1>
+                        <h2>How It Works</h2>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class = "col-md-12">
+
+                <div class="row" id ="explanation">
+                    <div class="col-md-12">
+                        <p></p>
+                       <p id="description"> Removing the complication and long-windedness from most reviews, Bitwise presents a simple and elegant review system. Gone are the out-of-ten or vauge letter grade review systems. Simply put: rate a 1 if you’d recommend the item, media, service, etc; rate 0 if you would not.  This binary system promotes greater emphasis on true opinion of a subject, and leads to confidence in a purchase or decision to skip based on many conscise and collected reviews based on this system.</p><p> Out of the total number of reviews, if the number of 1 rating are greater than 60%, the item will be rated a 1 overall. If the number of 1 ratings are below 59%, the item will have a 0 rating overall.</p> 
+                    </div>
+                </div>
+
+                <div class="row one" id ="opacity">
+                    <div class="col-md-3">
+                         <figure class="circle">
+                             <img src="img/cards.jpg" alt="My Face">
+                        </figure>
+                        <h2>Item Photo</h2>
+                    </div>
+                    <div class="col-md-6">
+                    <figure>
+                        <h3>1</h3>
+                        <h4> Cards Against Humanity </h4>
+                    </figure>
+                    <h2 id= "caption">Item Name and Rating</h2>
+                    </div>
+                     <div class="col-md-3">
+                         <span> 98% </span>
+                         <p> Cards Against Humanity is a party game for horrible people. Unlike most of the party games you've played before, Cards Against Humanity is as despicable and awkward as you and your friends. </p>
+                         <h2>Percentage and Description</h2>
+                        
+                    </div>
+                </div>
+            </div>
+             <div class = "row" id="footer"> 
+            </div> 
+        </div>
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/plugins.js"></script>
+    </body>
+</html>

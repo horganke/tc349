@@ -1,0 +1,52 @@
+ body {
+  background: #000;
+  text-align: center; 
+} 
+
+.title{
+		overflow: hidden;
+		text-align: center;
+
+		h1{
+		    font-family: "Courier New", Courier, monospace;
+		    color: white;
+			font-size: 24px;
+			text-align: center;
+			letter-spacing: .07em;
+			text-transform: uppercase;
+			display: inline-block;
+			padding: 0 15px;
+			position: relative;
+			
+			&:before{ 
+			  background: #ddd;
+			  content: "01110100 011101110";
+			  display: block;
+			  height: 1px;
+			  position: absolute;
+			  top: 50%;
+			  width: 400%;	
+			}
+			
+			&:after {
+			  background: #ddd;
+			  content: "01000010 01101001";
+			  display: block;
+			  height: 1px;
+			  position: absolute;
+			  top: 50%;
+			  width: 400%;
+			}
+			
+			&:before {
+			  right: 100%;
+			}
+			
+			&:after {
+			  left: 100%;
+			}
+		}
+	}
+
+
+
